@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@600;800&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  width: 1856px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #347db9, #2e5e86);
+}
+
+#navbar img {
+  margin-left: 50px;
+}
+
+
+#navbar h3 {
+  color: #eeeeee;
+
+}
+
+#navbar h3 {
+  margin-right: 100000rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+  width: 1680px;
+}
+
+#navbar input {
+  margin-right: -2.6rem;
+  margin-left: 20rem;
+  width: 120rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  border: none;
+}
+
+#navbar form button {
+
+  background-color: #ffffff;
+  border: 2px solid #eeeeee;
+  width: 80px;
+  border-radius: 6px;
+  color: #000;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#navbar .sair {
+  margin-left: 45px;
+  cursor: pointer;
+  color: #fefefe;
+}
+#navbar .usuario{
+  color: #ffffff;
+  margin-left: -270px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#navbar p {
+  margin-left:-200px ;
+  color: #022b4d;
+}
+#navbar .ola{
+  margin-left: -270px;
+  color: #000;
+}
+#navbar .cadastrar{
+  margin-left: -300px;
+  text-decoration: none;
+  color: #eeeeee;
+}
+#navbar .logar{
+  margin-left: 35px;
+  text-decoration: none;
+  color: #eeeeee;
+}
+.teste{
+  color: #000;
+}
+#navbar button {
+  margin-right: 40rem;
+
+}

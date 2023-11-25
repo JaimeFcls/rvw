@@ -1,0 +1,45 @@
+.sidebar-filter {
+    background: linear-gradient(to right, #347db9, #2e5e86);
+    padding: 20px;
+    width: 250px;
+    height: 8300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 112px;
+    z-index: 1;
+   
+}
+
+.sidebar-filter h3 {
+    margin-right: 30px;
+    color: rgb(231, 238, 238);
+    margin: 10;
+    font-style:oblique;
+    
+}
+
+.sidebar-filter input {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.sidebar-filter button {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sidebar-filter button:hover {
+    background-color: blue;
+}
+
+.sidebar-filter a {
+
+    color: rgb(255, 255, 255);
+    
+}

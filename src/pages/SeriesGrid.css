@@ -1,0 +1,60 @@
+.container .title {
+    color: #000000;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+    color: rgb(52, 79, 235);
+}
+
+.series-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.CategoriaSerie{
+    text-align: center;
+}
+.series-container div {
+    width: 29%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.series-container div img {
+    max-width: 100%;
+}
+
+.series-container div img,
+.series-container div p {
+    margin-bottom: 1rem;
+}
+
+.series-container div h2 {
+    margin-bottom: 1.5rem;
+}
+
+.series-container div svg {
+    color: rgb(8, 106, 233);
+}
+
+.series-container div a {
+    background-color: transparent;
+    color:#071425;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.series-container div a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
